@@ -1,0 +1,96 @@
+ol{
+    border: 1px dotted green;
+    width: 950px;
+    height: 100px;
+    margin: 0 auto;
+}
+ol li{
+    border: 1px solid red;
+    list-style: none;
+    height: 100%;
+    width: 300px;
+    display: inline-block;
+    
+}
+ol li:nth-child(2){
+background-color: black;
+margin-right: 5px;
+color: chocolate;
+
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+    
+}
+.orange{
+    color: orange;
+}
+.blue{
+    color: blue;
+}
+.name{
+    width: 20%;
+   margin-right: auto;
+   margin-left: auto;
+  display: block;
+  margin-top: 50px;
+}
+input{
+    width: 45%;
+    height: 50px;
+    
+    margin-left: 30%;
+    border-radius:  25px;
+    outline-style: none;
+    
+}
+.item{
+    margin-left: 80%;
+}
+.item button{
+    background-color: blue;
+    color: white;
+}
+.main{
+    width: 100%;
+    margin-top: 15px;
+    
+
+}
+.main button:nth-child(1){
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 40%;
+}
+.main button:nth-child(2){
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+}
